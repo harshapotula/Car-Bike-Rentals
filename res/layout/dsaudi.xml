@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFC107"
+    tools:context=".dsaudi">
+
+    <TextView
+        android:id="@+id/audifromdatetext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" From Date"
+        android:textColor="@android:color/black"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="40dp" />
+
+    <Button
+        android:id="@+id/audifromdatebutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dec 10 2021"
+        android:textSize="30dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="50dp"
+        android:onClick="openFromDatePicker"/>
+
+    <TextView
+        android:id="@+id/auditodatetext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="To  Date"
+        android:textColor="@android:color/black"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="40dp" />
+
+    <Button
+        android:id="@+id/auditodatebutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dec 10 2021"
+        android:textSize="30dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="50dp"
+        android:onClick="openToDatePicker"/>
+
+    <Button
+        android:id="@+id/audicontinuebooking"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Continue Booking"
+        android:textSize="25dp"
+        android:backgroundTint="#009688"
+        android:textColor="@android:color/white"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"/>
+
+
+
+</LinearLayout>
